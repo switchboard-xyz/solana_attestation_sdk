@@ -6,7 +6,7 @@ description = "Solana attestation sdk for verifying Switchboard Functions"
 readme = "README.md"
 keywords = ["switchboard", "oracle", "solana"]
 homepage = "https://docs.switchboard.xyz"
-repository = ""
+repository = "https://github.com/switchboard-xyz/solana_attestation_sdk"
 license = "MIT"
 
 [lib]
