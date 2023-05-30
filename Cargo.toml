@@ -1,0 +1,19 @@
+[package]
+name = "solana_attestation_sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Solana attestation sdk for verifying Switchboard Functions"
+readme = "README.md"
+keywords = ["switchboard", "oracle", "solana"]
+homepage = "https://docs.switchboard.xyz"
+repository = ""
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solana_attestation_sdk"
+
+[dependencies]
+anchor-lang = "0.27.0"
+bytemuck = "1.7.2"
+solana-program = "1.14.18"
